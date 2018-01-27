@@ -4,64 +4,63 @@
 
 .syntax--entity {
   &.syntax--name.syntax--type {
-    color: @light-orange;
-    text-decoration: underline;
+    color: @tron-yellow;
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @green;
+    color: @tron-green;
   }
 }
 
 .syntax--keyword {
-  color: @purple;
+  color: @tron-purple;
 
   &.syntax--control {
-    color: @purple;
+    color: @tron-purple;
   }
 
   &.syntax--operator {
-    color: @syntax-text-color;
+    color: @tron-purple;
   }
 
   &.syntax--other.syntax--special-method {
-    color: @blue;
+    color: @tron-blue;
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @tron-yellow;
   }
 }
 
 .syntax--storage {
-  color: @purple;
+  color: @tron-purple;
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @tron-yellow;
 
   &.syntax--character.syntax--escape {
-    color: @cyan;
+    color: @tron-blue;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @tron-yellow;
   }
 
   &.syntax--other.syntax--color {
-    color: @cyan;
+    color: @tron-blue;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @green;
+    color: @tron-green;
   }
 }
 
 .syntax--variable {
-  color: @red;
+  color: @tron-red;
 
   &.syntax--interpolation {
-    color: darken(@red, 10%);
+    color: darken(@tron-red, 10%);
   }
 
   &.syntax--parameter.syntax--function {
@@ -70,24 +69,24 @@
 }
 
 .syntax--invalid.syntax--illegal {
-  background-color: @red;
+  background-color: @tron-red;
   color: @syntax-background-color;
 }
 
 .syntax--string {
-  color: @green;
+  color: @tron-green;
 
 
   &.syntax--regexp {
-    color: @cyan;
+    color: @tron-blue;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @orange;
+      color: @tron-yellow;
     }
   }
 
   &.syntax--other.syntax--link {
-    color: @red;
+    color: @tron-red;
   }
 }
 
@@ -106,82 +105,82 @@
 
     &.syntax--heading,
     &.syntax--identity {
-      color: @blue;
+      color: @tron-blue;
     }
 
     &.syntax--bold {
-      color: @light-orange;
+      color: @tron-yellow;
       font-style: bold;
     }
 
     &.syntax--italic {
-      color: @purple;
+      color: @tron-purple;
       font-style: italic;
     }
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+    color: darken(@tron-red, 10%);
   }
 
 }
 
 .syntax--support {
   &.syntax--class {
-    color: @light-orange;
+    color: @tron-yellow;
   }
 
   &.syntax--function  {
-    color: @cyan;
+    color: @tron-blue;
 
     &.syntax--any-method {
-      color: @blue;
+      color: @tron-blue;
     }
   }
 }
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @blue;
+    color: @tron-blue;
   }
 
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @tron-yellow;
   }
 
   &.syntax--name.syntax--section {
-    color: @blue;
+    color: @tron-blue;
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: @tron-red;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @tron-yellow;
 
     &.syntax--id {
-      color: @blue;
+      color: @tron-blue;
     }
   }
 }
 
 .syntax--meta {
   &.syntax--class {
-    color: @light-orange;
+    color: @tron-yellow;
   }
 
   &.syntax--link {
-    color: @orange;
+    color: @tron-yellow;
   }
 
   &.syntax--require {
-    color: @blue;
+    color: @tron-blue;
   }
 
   &.syntax--selector {
-    color: @purple;
+    color: @tron-purple;
   }
 
   &.syntax--separator {
@@ -196,47 +195,47 @@
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
+    color: @tron-yellow;
     font-weight: bold;
   }
 
   &.syntax--changed {
-    color: @purple;
+    color: @tron-purple;
   }
 
   &.syntax--deleted {
-    color: @red;
+    color: @tron-red;
   }
 
   &.syntax--italic {
-    color: @purple;
+    color: @tron-purple;
     font-style: italic;
   }
 
   &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
-    color: @blue;
+    color: @tron-blue;
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @tron-green;
   }
 
   &.syntax--list {
-    color: @red;
+    color: @tron-red;
   }
 
   &.syntax--quote {
-    color: @orange;
+    color: @tron-yellow;
   }
 
   &.syntax--raw.syntax--inline {
-    color: @green;
+    color: @tron-green;
   }
 }
 
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
-    color: @green;
+    color: @tron-green;
   }
 }
